@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Missie Codekraker</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="content header-content">
+        <img src="./images/harvey.png" width="80px">
+        <h1>Missie Codekraker</h1> 
+    </div>
+    </header>
+    <main>
+        <div class="content main-content">
+            <div class="intro">
+                <p>
+                    Dit is Harvey. Harvey probeert een code te kraken. Maar hij kan dit
+                    niet alleen! Help Harvey door de opdrachten op de werkbladen te maken.
+                </p>
+                <p>
+                    Heb je de opdrachten op je werkbladen opgelost? Vul hieronder de code in. Klik op de 
+                    knop om de code te controleren.
+                </p>
+            </div>
+            <div class="challenges">
+                <div id="checker">
+                    <input type="text" id="inputNumber" placeholder="Vul hier de code in">
+                    <br>
+                    <button onclick="checkNumber()">Check</button>
+                    <div id="result">Vul de code in</div>
+                </div>
+            </div>
+        </div>
+        <div class="easter-egg js-easter-egg"></div>
+        <canvas id="confetti" class="js-confetti"></canvas>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding: 0.75rem 0;
+    background-color: #2b2f30;
+    color: white;
+}
+
+main {
+    position: relative;
+    padding-top: 2rem;
+    height: calc(100vh - 142px);
+    background-image: url('images/workspace.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    height: 60vh;
+    padding: 2rem 2rem 0rem 2rem;
+    box-sizing: border-box;
+    background-color: rgba(225, 255, 255, 0.75);
+}
+
+input {
+    padding: 1rem;
+    font-size: 100%;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 2rem 3rem;
+
+}
+
+button {
+    background-color: #35374c;
+    border: 1px solid #2a2c3c;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-content h1 {
+    margin-left: 1rem;
+    font-weight: normal;
+}
+
+.intro {
+    font-size: 1.125rem;
+}
+
+.challenges {
+    padding: 2rem;
+}
+
+#checker {
+  text-align: center;
+}
+
+input {
+  padding: 1em;
+  margin-bottom: 1rem;
+  width: 132px;
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #35374c;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.easter-egg {
+    border-radius: 50%;
+    position: absolute;
+    top: 3.275rem;
+    left: 6.5rem;
+    height: 130px;
+    width: 130px;
+}
+
+#confetti {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}

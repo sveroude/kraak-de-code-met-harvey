@@ -105,7 +105,7 @@ function checkNumber() {
   if (inputNumber === "") {
     resultElement.textContent = "Je hebt geen code ingevoerd!";
   } else {
-    const code = 3545;
+    const code = 35458;
     resultElement.textContent = `The number is ${result}.`;
     if (inputNumber == code) {
         resultElement.textContent = 'Gelukt! De code is goed!';
